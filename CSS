@@ -1,0 +1,166 @@
+body {
+  background-color: lightgray;  
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  margin-top: -100px;
+  background-color: lightgray;
+}
+
+#header-img {
+  height: 35px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.nav-links {
+  margin-left: 800px;
+  margin-top: -35px;
+}
+
+.nav-link-item {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav-link {
+  color: black;
+}
+
+#features-section {
+  height: 500px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#how-it-works-section {
+  height: 450px;
+  width: 100%;
+}
+
+#pricing-section {
+  height: 280px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  margin-top: 10px;
+}
+
+#email {
+  margin-left: 529px;
+  width: 288px;
+  margin-top: 10px;
+  border: 2px solid lightblue;   
+}
+
+#submit {
+  background-color: gold;
+  font-weight: 900;
+}
+
+.features-list {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.features-list-item {
+  list-style: none;
+  margin-bottom: 70px;
+}
+
+.titles {
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.paragraphs {
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+#video {
+  margin-left: 410px;
+  margin-top: 75px;
+}
+
+.row {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.col-md-3 {
+  height: 265px;
+  width: 100px;
+  border: 1px solid black;
+  margin-left: 20px; 
+}
+
+.gray-header {
+  height: 45px;
+  width: 288px;
+  margin-left: -15px;
+  background-color: gray;
+  padding-top: 10px;
+}
+
+.header-title {
+  margin-left: 75px;
+}
+
+.money-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box-list-item {
+  list-style: none;
+}
+
+.select {
+  margin-left: 90px;
+  width: 100px;
+  height: 40px;
+  background-color: gold;
+  border: 1px solid gold;
+  border-radius: 2.5px;
+}
+
+.footer {
+  height: 80px;
+  width: 20px;
+  background-color: gray;
+  margin-top: 20px;
+  width: 930px;
+  margin-left: 210px;
+}
+
+.footer-list {
+  margin-left: 660px;
+}
+
+.footer-list-item {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+  display: inline-flex;
+}
+
+#footer-ending {
+  margin-left: 650px;
+  margin-top: -15px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
